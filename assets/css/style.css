@@ -1,0 +1,43 @@
+.main_image {
+    padding: 0px !important;
+}
+
+.babs_logo {
+    width: 10vw;
+}
+
+.babs-nav {
+    left: 10px;
+    position: absolute;
+}
+
+#navbar-colors {
+    background-color: #112754 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f71515;
+}
+
+.second_sect {
+    height: 300px;
+    background-color: #ffd56c;
+    position: relative;
+    display: inline-block;
+}
+
+.second_sect img {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+.sect_img {
+    max-height: 90%;
+}
+
+.image-vine {
+    position: absolute;
+    top: 5;
+    left: 5;
+}
