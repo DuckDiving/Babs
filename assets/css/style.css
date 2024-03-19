@@ -51,6 +51,70 @@
     left: 5;
 }
 
-.about_text h1 {
+.about_text {
+    padding-left: 280px;
+    padding-top: 20px;
+}
+
+.about_text h1, .about_text p, .token_text h2, .token_text h1, .token_text p {
     font-family: "Jungle";
 }
+
+.about_text p {
+    font-size: 18px;
+}
+
+.third_sect {
+    height: 300px;
+    background-color: #343357;
+    position: relative;
+    display: inline-block;
+}
+
+.third_sect img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.sect3_img {
+    max-height: 100%;
+}
+
+.token_text {
+    color: #ffd56c;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+/* Add your custom styles here */
+#carouselContainer {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+#carouselExampleControls {
+    position: absolute;
+    top: 0;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-item {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.carousel-item img {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fourth_sect {
+    height: 300px;
+    background-color: #cd7e54;
+    position: relative;
+    display: inline-block;
+}
+
