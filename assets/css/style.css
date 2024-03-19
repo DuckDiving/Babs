@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Jungle'; 
-    src: url('../fonts/AfrikaTUbuntu.ttf') format('truetype'), 
-         url("../fonts/AfrikaTUbuntu.woff") format("woff"), 
-         url("../fonts/AfrikaTUbuntu.woff2") format("woff2"); 
+    src: url('../../fonts/AfrikaTUbuntu.ttf') format('truetype'), 
+         url("../../fonts/AfrikaTUbuntu.woff") format("woff"), 
+         url("../../fonts/AfrikaTUbuntu.woff2") format("woff2"); 
     font-weight: normal;
     font-style: normal;
 }  
