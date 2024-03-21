@@ -7,12 +7,20 @@
     font-style: normal;
 }  
 
+/* Adjust anchor point for navbar height */
+:target:before {
+    content: "";
+    display: block;
+    height: 78px; /* Adjust this value according to your navbar height */
+    margin: -78px 0 0; /* Negative margin equal to navbar height */
+}
+
 .main_image {
     padding: 0px !important;
 }
 
 .babs_logo {
-    width: 10vw;
+    width: 13vw;
 }
 
 .babs-nav {
@@ -20,12 +28,24 @@
     position: absolute;
 }
 
+.nav-item {
+    font-size: 30px !important;
+}
+
 #navbar-colors {
     background-color: #112754 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #f71515;
+    color: #ffd56c;
+}
+
+.nav-link:hover {
+    color: aliceblue !important;
+}
+
+.nav-link:focus {
+    color: #ffd56c !important;
 }
 
 .second_sect {
@@ -52,11 +72,10 @@
 }
 
 .about_text {
-    padding-left: 280px;
-    padding-top: 20px;
+    padding: 20px 50px 0px 10px;
 }
 
-.about_text h1, .about_text p, .token_text h2, .token_text h1, .token_text p {
+.about_text h1, .about_text p, .token_text h2, .token_text h1, .token_text p, .nft_text h1, .nft_text p, .fourth_sect h1, .nav-item, .sixth_sect h3, .sixth_sect p {
     font-family: "Jungle";
 }
 
@@ -89,11 +108,21 @@
 
 @keyframes slide {
     from {
-        transform: translateX(0);
-    }
-    to {
         transform: translateX(-100%);
     }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.nft_title {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nft_title {
+    color: #ffd56c;
 }
 
 .fourth_sect img {
@@ -105,10 +134,9 @@
     height: 300px;
     background-color: #cd7e54;
     position: relative;
-    display: inline-block;
     white-space: nowrap;
     overflow: hidden;
-    padding: 35px 0px;
+    padding: 8px 0px;
 }
 
 .balls_imgs {
@@ -135,10 +163,88 @@
 
 .fourth_sect:before {
     left: 0;
-    background: linear-gradient(to left, rgba(205, 126, 84, 0), rgb(205, 126, 84));
+    background: linear-gradient(to left, rgba(205, 126, 84, 0), rgb(235, 198, 106));
 }
 
 .fourth_sect:after {
     right: 0;
-    background: linear-gradient(to right, rgba(205, 126, 84, 0), rgb(205, 126, 84));
+    background: linear-gradient(to right, rgba(205, 126, 84, 0), rgb(235, 198, 106));
+}
+
+.fifth_sect {
+    height: 300px;
+    background-color: #013c2e;
+    position: relative;
+}
+
+.fifth_sect img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.sect5_img {
+    max-height: 100%;
+}
+
+.nft_text {
+    padding-top: 65px;
+    color: #ffd56c;
+}
+
+.sixth_sect {
+    height: 300px;
+    background-color: #343357;
+    position: relative;
+}
+
+.info_text {
+    color: #ffd56c;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.left_base img {
+    width: 100px;
+}
+
+.left_base h3 span {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.right_base {
+    padding-top: 70px;
+}
+
+@media(max-width: 1001px) {
+    .about_text p {
+        font-size: 16px;
+    }
+    .about_text h1 {
+        font-size: 25px;
+    }
+    .about_text {
+        padding: 30px 50px 0px 30px;
+    }
+}
+
+@media(max-width: 944px) {
+    .about_text p {
+        font-size: 16px;
+    }
+    .about_text h1 {
+        font-size: 23px;
+    }
+    .about_text {
+        padding: 30px 50px 0px 40px;
+    }
+}
+
+@media(max-width: 890px) {
+    .about_text {
+        padding: 30px 30px 0px 50px;
+    }
+    .about_text p {
+        font-size: 15px;
+    }
 }
