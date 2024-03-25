@@ -204,6 +204,19 @@
     position: relative;
 }
 
+.seventh_sect {
+    height: 300px;
+    background-color: #fff391;
+    position: relative;
+    display: inline-block;
+}
+
+.seventh_sect img {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
 .info_text {
     color: #ffd56c;
     text-align: center;
