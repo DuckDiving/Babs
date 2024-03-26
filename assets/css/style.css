@@ -246,25 +246,23 @@
 }
 
 .team {
-    position: relative; /* Added to contain the image */
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .team img {
-    max-width: 100%; /* Added to contain the image within its parent */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    border: 5px solid #343357;
     display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #343357;
 }
 
 .team h2 {
-    position: absolute;
-    bottom: 0; /* Positioning at the bottom */
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "Jungle";
 }
 
 @media(max-width: 1001px) {
