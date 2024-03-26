@@ -235,6 +235,38 @@
     padding-top: 70px;
 }
 
+.eight_sect {
+    height: 300px;
+    background-color: #e83333;
+}
+
+.heading h1 {
+    font-family: "Jungle";
+    text-align: center;
+}
+
+.team {
+    position: relative; /* Added to contain the image */
+}
+
+.team img {
+    max-width: 100%; /* Added to contain the image within its parent */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid #343357;
+    display: block;
+}
+
+.team h2 {
+    position: absolute;
+    bottom: 0; /* Positioning at the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 @media(max-width: 1001px) {
     .about_text p {
         font-size: 16px;
