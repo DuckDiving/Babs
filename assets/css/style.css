@@ -79,6 +79,10 @@
     font-family: "Jungle";
 }
 
+.about_text_seven h1 {
+    color: #ffd56c;
+}
+
 .about_text p {
     font-size: 18px;
 }
@@ -206,7 +210,7 @@
 
 .seventh_sect {
     height: 300px;
-    background-color: #fff391;
+    background-color: #2e2f5b;
     position: relative;
     display: inline-block;
 }
@@ -236,8 +240,9 @@
 }
 
 .eight_sect {
-    height: 300px;
-    background-color: #e83333;
+    background-image: url(../images/team_background1.png);
+    background-size: cover;
+    min-height: 700px;
 }
 
 .heading h1 {
@@ -257,6 +262,23 @@
     height: 200px;
     border-radius: 50%;
     border: 5px solid #343357;
+}
+
+.team_img_one {
+    position: relative;
+    left: 295px;
+    top: 150px;
+}
+
+.team_img_two {
+    position: relative;
+    right: -500px;
+    top: 68px;
+}
+
+.team_img_three {
+    position: relative;
+    top: -250px;
 }
 
 .team h2 {
