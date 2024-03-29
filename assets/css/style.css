@@ -88,7 +88,7 @@
 }
 
 .third_sect {
-    height: 300px;
+    height: 350px;
     background-color: #343357;
     position: relative;
     display: inline-block;
@@ -100,8 +100,20 @@
     right: 0;
 }
 
+.token_text {
+    max-width: 100%;
+}
+
+.token_text h2 {
+    font-size: 2em;
+}
+
 .sect3_img {
-    max-height: 100%;
+    height: 350px;
+}
+
+.tokenomics {
+    box-sizing: content-box !important;
 }
 
 .token_text {
@@ -165,6 +177,7 @@
 
 .balls_imgs img{
     margin: 0px 50px;
+    border: 5px solid #ffd56c;
 }
 
 .fourth_sect:before, .fourth_sect:after {
@@ -220,10 +233,39 @@
     display: inline-block;
 }
 
-.seventh_sect img {
+.seventh_sect .sect_img {
     position: absolute;
     bottom: 5px;
     right: 10px;
+}
+
+.seven_text {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+#one {
+    padding-left: 10px;
+}
+
+#two {
+    padding-left: 50px;
+}
+
+#three {
+    padding-left: 90px;
+}
+
+#four {
+    padding-left: 130px;
+}
+
+#five {
+    padding-left: 170px;
+}
+
+.seven_text p img {
+    height: 20px;
 }
 
 .info_text {
