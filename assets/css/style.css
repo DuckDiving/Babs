@@ -75,7 +75,7 @@
     padding: 20px 50px 0px 10px;
 }
 
-.about_text h1, .about_text p, .token_text h2, .token_text h1, .token_text p, .nft_text h1, .nft_text p, .fourth_sect h1, .nav-item, .sixth_sect h3, .sixth_sect p {
+.about_text h1, .about_text p, .token_text h2, .token_text h1, .token_text p, .nft_text h1, .nft_text p, .fourth_sect h1, .nav-item, .sixth_sect h3, .sixth_sect p, .team_text {
     font-family: "Jungle";
 }
 
@@ -110,6 +110,10 @@
     padding-top: 15px;
 }
 
+.about_text_seven {
+    color: #ffd56c;
+}
+
 .socials img {
     width: 50px;
     height: 50px;
@@ -141,7 +145,7 @@
 }
 
 .fourth_sect {
-    height: 300px;
+    height: 400px;
     background-color: #cd7e54;
     position: relative;
     white-space: nowrap;
@@ -152,6 +156,7 @@
 .balls_imgs {
     display: inline-block;
     animation: 35s slide infinite linear;
+    margin-top: 50px;
 }
 
 .fourth_sect:hover .balls_imgs {
@@ -258,8 +263,8 @@
 .team img {
     display: block;
     margin: 0 auto;
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     border: 5px solid #343357;
 }
@@ -267,24 +272,44 @@
 .team_img_one {
     position: relative;
     left: 295px;
-    top: 150px;
+    top: 10px;
 }
 
 .team_img_two {
     position: relative;
-    right: -500px;
-    top: 68px;
+    left: 320px;
+    top: -8px;
 }
 
 .team_img_three {
     position: relative;
-    top: -250px;
+    top: -20px;
+    left: 10px;
+}
+
+.trial {
+    display: inline-block;
 }
 
 .team h2 {
     margin-top: 10px;
     font-size: 18px;
     font-family: "Jungle";
+}
+
+.team_text_one {
+    padding-left: 0px;
+    padding-top: 33px;
+}
+
+.team_text_two {
+    padding-left: 109px;
+    padding-top: 20px;
+}
+
+.team_text_three {
+    padding-left: 41px;
+    padding-top: 20px;
 }
 
 @media(max-width: 1001px) {
