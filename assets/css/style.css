@@ -106,6 +106,7 @@
 
 .token_text h2 {
     font-size: 2em;
+    line-height: 1.4;
 }
 
 .sect3_img {
@@ -387,6 +388,16 @@
     }
     .second_sect img {
         bottom: 43px;
+    }
+    .token_text h2 {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    .third_sect {
+        height: 300px;
+    }
+    .sect3_img {
+        height: 300px;
     }
 }
 
