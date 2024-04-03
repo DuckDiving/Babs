@@ -401,6 +401,22 @@
     }
 }
 
+@media(max-width: 900px) {
+    .third_sect {
+        height: 250px;
+    }
+    .sect3_img {
+        height: 250px;
+    }
+    .token_text h1 {
+        font-size: 36px;
+    }
+    .token_text h2 {
+        font-size: 19px;
+        line-height: 1.2;
+    }
+}
+
 @media(max-width: 846px) {
     .about_text p {
         font-size: 15px;
@@ -431,5 +447,18 @@
     }
     .second_sect {
         height: 220px;
+    }
+    .third_sect {
+        height: 220px;
+    }
+    .sect3_img {
+        height: 220px;
+    }
+    .token_text h1 {
+        font-size: 33px;
+    }
+    .token_text h2 {
+        font-size: 18px;
+        line-height: 1.2;
     }
 }
