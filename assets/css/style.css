@@ -292,6 +292,13 @@
     background-image: url(../images/team_background1.png);
     background-size: cover;
     min-height: 700px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 0px;
+}
+
+.eight_sect .row {
+    position: relative;
+    z-index: 1;
 }
 
 .heading h1 {
@@ -313,24 +320,6 @@
     border: 5px solid #343357;
 }
 
-.team_img_one {
-    position: relative;
-    left: 295px;
-    top: 10px;
-}
-
-.team_img_two {
-    position: relative;
-    left: 320px;
-    top: -8px;
-}
-
-.team_img_three {
-    position: relative;
-    top: -20px;
-    left: 10px;
-}
-
 .trial {
     display: inline-block;
 }
@@ -341,19 +330,9 @@
     font-family: "Jungle";
 }
 
-.team_text_one {
-    padding-left: 0px;
-    padding-top: 33px;
-}
-
-.team_text_two {
-    padding-left: 109px;
-    padding-top: 20px;
-}
-
-.team_text_three {
-    padding-left: 41px;
-    padding-top: 20px;
+.team_text_one, .team_text_two, .team_text_three {
+    padding-left: 20px;
+    padding-top: 25px;
 }
 
 @media(max-width: 1600px) {
@@ -473,6 +452,18 @@
     }
     .fourth_sect {
         height: 300px;
+    }
+}
+
+@media(max-width: 768px) {
+    .background-overlay {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .eight_sect {
+        padding: 0px;
+    }
+    .team_text_one, .team_text_two, .team_text_three {
+        padding-left: 30px;
     }
 }
 
