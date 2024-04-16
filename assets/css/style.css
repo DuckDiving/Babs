@@ -7,13 +7,7 @@
     font-style: normal;
 }  
 
-/* Adjust anchor point for navbar height */
-:target:before {
-    content: "";
-    display: block;
-    height: 78px; /* Adjust this value according to your navbar height */
-    margin: -78px 0 0; /* Negative margin equal to navbar height */
-}
+
 
 .main_image {
     padding: 0px !important;
@@ -465,6 +459,10 @@
     .team_text_one, .team_text_two, .team_text_three {
         padding-left: 30px;
     }
+    .team img {
+        width: 160px;
+        height: 160px;
+    }
 }
 
 @media(max-width: 750px) {
@@ -498,6 +496,19 @@
 @media(max-width: 768px) {
     .third_sect img {
         opacity: 50%;
+    }
+    .left_base img {
+        width: 80px;
+    }
+    .middle_base p {
+        font-size: 15px;
+    }
+    .right_base h3, .left_base h3, .middle_base h3{
+        font-size: 25px;
+    }
+    .right_base img{
+        width: 40px;
+        height: 40px;
     }
 }
 
@@ -554,6 +565,34 @@
     #one, #two, #three, #four, #five {
         padding-left: 5px;
     }
+    .left_base img {
+        width: 80px;
+    }
+    .middle_base p {
+        font-size: 12px;
+    }
+    .right_base h3, .left_base h3, .middle_base h3{
+        font-size: 20px;
+    }
+    .right_base img{
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media(max-width: 568px) {
+    .hide_left {
+        display: none;
+    }
+    .right_base {
+        padding-top: 30px;
+    }
+}
+
+@media(min-width: 568px) {
+    .hide_right {
+        display: none;
+    }
 }
 
 @media(max-width: 540px) {
@@ -565,5 +604,22 @@
     }
     .about_text {
         padding: 10px 10px 0px 0px;
+    }
+    .team_text_one, .team_text_two, .team_text_three {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+    .team img {
+        width: 130px;
+        height: 130px;
+    }
+    .eight_sect {
+        min-height: 625px;
+    }
+}
+
+@media(max-width: 540px) {
+    .team_text_one, .team_text_two, .team_text_three {
+        font-size: 12px;
     }
 }
