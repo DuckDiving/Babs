@@ -412,6 +412,9 @@
     .fifth_sect img {
         opacity: 50%;
     }
+    .seventh_sect {
+        height: 250px;
+    }
 }
 
 @media(max-width: 900px) {
@@ -427,6 +430,21 @@
     .token_text h2 {
         font-size: 19px;
         line-height: 1.2;
+    }
+    .seven_text {
+        padding-left: 15px;
+    }
+    .seventh_sect .sect_img {
+        bottom: 30px;
+    }
+}
+
+@media(max-width: 861px) {
+    .seventh_sect {
+        height: 220px;
+    }
+    .seven_text {
+        padding-left: 15px;
     }
 }
 
@@ -530,6 +548,9 @@
     .fifth_sect {
         height: 200px;
     }
+    .seventh_sect .sect_img {
+        opacity: 50%;
+    }
 }
 
 @media(max-width: 590px) {
@@ -538,6 +559,9 @@
     }
     .col-space-2 {
         min-width: 100%;
+    }
+    #one, #two, #three, #four, #five {
+        padding-left: 5px;
     }
 }
 
