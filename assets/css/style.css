@@ -52,7 +52,7 @@
     height: 300px;
     background-color: #ffd56c;
     position: relative;
-    display: inline-block;
+    display: block;
 }
 
 .second_sect img {
@@ -210,6 +210,7 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    overflow: hidden;
 }
 
 .sect5_img {
@@ -399,6 +400,18 @@
     .sect3_img {
         height: 300px;
     }
+    .col-space-5 {
+        max-width: 10%;
+    }
+    .fifth_sect {
+        height: 250px;
+    }
+    .nft_text {
+        padding-top: 25px;
+    }
+    .fifth_sect img {
+        opacity: 50%;
+    }
 }
 
 @media(max-width: 900px) {
@@ -433,6 +446,16 @@
     .second_sect img {
         bottom: 33px;
     }
+    .fourth_sect img {
+        height: 150px;
+        width: 150px;
+    }
+    .balls_imgs {
+        margin-top: 25px;
+    }
+    .fourth_sect {
+        height: 300px;
+    }
 }
 
 @media(max-width: 750px) {
@@ -460,5 +483,72 @@
     .token_text h2 {
         font-size: 18px;
         line-height: 1.2;
+    }
+}
+
+@media(max-width: 768px) {
+    .third_sect img {
+        opacity: 50%;
+    }
+}
+
+@media(max-width: 700px) {
+    .fourth_sect img {
+        height: 120px;
+        width: 120px;
+    }
+    .balls_imgs {
+        margin-top: 15px;
+    }
+    .fourth_sect {
+        height: 250px;
+    }
+    .nft_title h1 {
+        font-size: 2rem;
+    }
+    .fourth_sect:before, .fourth_sect:after {
+        display: none;
+    }
+    .col-space-5-p {
+        min-width: 100% !important;
+    }
+    .col-space-5-p h1 {
+        font-size: 2rem;
+    }
+    .col-space-5-p p {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 641px) {
+    .col-space-5-p h1 {
+        font-size: 1.8rem;
+    }
+    .col-space-5-p p {
+        font-size: 15px;
+    }
+    .fifth_sect {
+        height: 200px;
+    }
+}
+
+@media(max-width: 590px) {
+    .second_sect img {
+        opacity: 40%;
+    }
+    .col-space-2 {
+        min-width: 100%;
+    }
+}
+
+@media(max-width: 540px) {
+    .col-space-5-p h1 {
+        font-size: 1.7rem;
+    }
+    .col-space-5-p p {
+        font-size: 12px;
+    }
+    .about_text {
+        padding: 10px 10px 0px 0px;
     }
 }
