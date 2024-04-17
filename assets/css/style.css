@@ -7,7 +7,9 @@
     font-style: normal;
 }  
 
-
+#ABOUT, #TOKENOMICS, #NFTS {
+    scroll-margin-top: 78px;
+}
 
 .main_image {
     padding: 0px !important;
@@ -387,6 +389,12 @@
     }
     .seventh_sect {
         height: 250px;
+    }
+}
+
+@media(max-width: 991px) {
+    #ABOUT, #TOKENOMICS, #NFTS {
+    scroll-margin-top: 255px;
     }
 }
 
