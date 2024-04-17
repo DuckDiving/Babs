@@ -7,6 +7,10 @@
     font-style: normal;
 }  
 
+.row {
+    margin-right: 0px !important;
+}
+
 #ABOUT, #TOKENOMICS, #NFTS {
     scroll-margin-top: 78px;
 }
@@ -290,6 +294,7 @@
     min-height: 700px;
     background-color: rgba(255, 255, 255, 0.7);
     margin: 0px;
+    min-width: 100%;
 }
 
 .eight_sect .row {
@@ -326,9 +331,14 @@
     font-family: "Jungle";
 }
 
+.team_heading {
+	padding-right: 0px;
+}
+
 .team_text_one, .team_text_two, .team_text_three {
     padding-left: 20px;
     padding-top: 25px;
+	padding-right: 0px;
 }
 
 @media(max-width: 1600px) {
@@ -628,6 +638,12 @@
 
 @media(max-width: 540px) {
     .team_text_one, .team_text_two, .team_text_three {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 436px) {
+    .left_base h3 {
         font-size: 12px;
     }
 }
