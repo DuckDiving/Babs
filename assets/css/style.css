@@ -75,7 +75,7 @@
     padding: 20px 50px 0px 10px;
 }
 
-.about_text h1, .about_text p, .token_text h2, .token_text h1, .token_text p, .nft_text h1, .nft_text p, .fourth_sect h1, .nav-item, .sixth_sect h3, .sixth_sect p, .team_text {
+.about_text h1, .about_text p, .token_text h2, .token_text h1, .token_text p, .nft_text h1, .nft_text p, .fourth_sect h1, .nav-item, .sixth_sect h3, .sixth_sect p, .team_text, .howto_image h1, .howto_image h2 {
     font-family: "Jungle";
 }
 
@@ -340,6 +340,98 @@
     padding-top: 25px;
 	padding-right: 0px;
 }
+
+.howto_image {
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #0f094c;
+    text-align: center;
+}
+
+.text-overlay h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.text-overlay h2 {
+    font-size: 22px;
+}
+
+.phantom {
+    border-radius: 50%;
+}
+
+.earn_sect {
+    background-color: #faf9b3;
+}
+
+.earn_sect h1, .earn_sect h2 {
+    font-family: "Jungle";
+    color: #0f094c;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.earn_text li {
+    font-family: "Jungle";
+    color: #0f094c;
+    font-size: 22px;
+    line-height: 2;
+}
+
+.dusk_gif {
+    height: 200px;
+    border-radius: 20px;
+}
+
+.earn_extra {
+    padding: 0px;
+}
+
+.earn_carousel {
+    background-color: #0f094c !important;
+    margin-top: 50px;
+    height: 95px;
+    padding: 0px;
+}
+
+.earn_carousel img {
+    height: 75px;
+    width: 75px;
+    margin-top: 0px;
+    border-radius: 50%;
+}
+
+.miniballs {
+    margin-top: 10px;
+}
+
+.earn_carousel:before, .fourth_sect:after {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.earn_carousel:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(205, 126, 84, 0), rgb(249 249 179));
+}
+
+.earn_carousel:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(205, 126, 84, 0), rgb(249 249 179));
+}
+
 
 @media(max-width: 1600px) {
     .about_text p {
