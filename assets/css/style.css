@@ -73,6 +73,7 @@
 
 .about_text {
     padding: 20px 50px 0px 10px;
+    text-align: justify;
 }
 
 .about_text h1, .about_text p, .token_text h2, .token_text h1, .token_text p, .nft_text h1, .nft_text p, .fourth_sect h1, .nav-item, .sixth_sect h3, .sixth_sect p, .team_text, .howto_image h1, .howto_image h2 {
@@ -455,21 +456,47 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
   }
   
   .popup {
-    background-color: white;
+    background-color: rgb(249 249 179);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     max-width: 80%;
     text-align: center;
+    width: 600px;
+    position: absolute;
+    color: #343357;
   }
-  
+
+  .popup h2 {
+    font-size: 32px;
+    font-family: "Jungle";
+  }
+
+  .popup p {
+    font-size: 25px;
+    font-family: "Jungle";
+  }
+
+  .gold_warning img {
+    z-index: 1;
+    width: 200px;
+    position: relative;
+    top: 45%;
+    transform: translate(0%, -50%);
+  }
+
+  .gold_warning {
+    padding: 0px;
+  }
+
   #acceptBtn {
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: #ff0000;
+    color: rgb(249 249 179);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -621,6 +648,23 @@
     }
     .text-overlay h2 {
         font-size: 18px;
+    }
+    .popup {
+        width: 450px;
+    }
+    #acceptBtn {
+        padding: 10px 10px;
+        width: 120px;
+        font-size: 12px;
+    }
+    .popup h2 {
+        font-size: 20px;
+    }
+    .popup p {
+        font-size: 16px;
+    }
+    .gold_warning img {
+        width: 149px;
     }
 }
 
@@ -869,6 +913,12 @@
     }
     .yield_text li {
         font-size: 16px;
+    }
+    .about_text p {
+        font-size: 13px;
+    }
+    .second_sect {
+        height: 270px;
     }
 }
 
